@@ -315,10 +315,10 @@ input{
 }
 
 .block2_min-width{
-	min-width: 213px;
+	min-width: 170px;
 }
 
-.block2_lil_div_margin-top{
+.block2_lil_div_margin{
 	margin-top: 34px;
 }
 
@@ -355,6 +355,10 @@ input{
 
 .block2_arrow:hover{
 	cursor: pointer;
+}
+
+.block2_mobile_arrows, .block2_mobile_image{
+	display: none;
 }
 
 
@@ -466,6 +470,14 @@ input{
 
 .block3_button:hover{
 	color: white;
+}
+
+.block3_mobile_checkbox_label{
+	display: none;
+}
+
+.block3_image_mobile, .block3_videoplay_mobile{
+	display: none;
 }
 
 
@@ -708,6 +720,10 @@ input{
 
 
 
+.block6_mobile{
+	display: none;
+}
+
 .block6{
 	height: 864px;
 	background-image: url(../images/block6_background.png);
@@ -898,6 +914,10 @@ input{
 
 
 
+
+.block8_mobile{
+	display: none;
+}
 
 .block8{
 	height: 1008px;

@@ -2,8 +2,9 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="./css/desktop_style.css">
-	<link rel="stylesheet" type="text/css" href="./css/mobile_style.css" media="screen and (min-width: 320px) and (max-width: 1300px)">
+	<link rel="stylesheet" type="text/css" href="./css/mobile_style.css" media="screen and (max-width: 1300px)">
 	<title>Landing</title>
 </head>
 <body>
@@ -54,7 +55,7 @@
 				<p class="block1_text">Get ready-made turnkey repairs on time <br> 
 					with work time saving up to 45 days and 20% from <br> 
 					cost of materials due to the organization of work</p>
-				<div>
+				<div class="block1_button_flex">
 					<button class="block1_button block1_button_margin">Calculate the cost</button>
 					<button class="block1_button">Submit your application</button>
 				</div>
@@ -82,24 +83,29 @@
 				<div class="block2_flex1">
 					<div class="block2_main_part">
 						<h2 class="block2_title">Completed <br> projects</h2>
-						<p class="block2_text">Only a small part of the work performed by our company is presented <br>
-						on the site. For 14 years on in the construction <br>
+						<p class="block2_text">Only a small part of the work performed by our company is <br>
+						presented on the site. For 14 years on in the construction <br>
 						market we have made happy more than 1000 families</p>
+						<img src="./images/block2_mobile_image.png" class="block2_mobile_image">
+						<div class="block2_mobile_arrows">
+							<div class="block2_mobile_arrow block2_arrow_margin1"><img src="./images/block2_mobile_left_arrow.svg" class="block2_lil_arrow_margin1"></div>
+							<div class="block2_mobile_arrow block2_arrow_margin2"><img src="./images/block2_mobile_right_arrow.svg"></div>
+						</div>
 						<div class="block2_flex2">
 							<div class="block2_min-width">
-								<h3 class="block2_title">City:</h3>
+								<h3 class="block2_title block2_mobile_title">City:</h3>
 								<span class="block2_text">Rostov-on-Don <br> LCD admiral</span>
 							</div>
 							<div class="block2_min-width">
-								<h3 class="block2_title">apartment area:</h3>
+								<h3 class="block2_title block2_mobile_title">apartment area:</h3>
 								<span class="block2_text">81 m2</span>
 							</div>
-							<div class="block2_min-width block2_lil_div_margin-top">
-								<h3 class="block2_title">Repair time:</h3>
+							<div class="block2_min-width block2_lil_div_margin">
+								<h3 class="block2_title block2_mobile_title">Repair time:</h3>
 								<span class="block2_text">3.5 months</span>
 							</div>
-							<div class="block2_min-width block2_lil_div_margin-top">
-								<h3 class="block2_title">Repair Cost:</h3>
+							<div class="block2_min-width block2_lil_div_margin">
+								<h3 class="block2_title block2_mobile_title">Repair Cost:</h3>
 								<span class="block2_text">Upon request</span>
 							</div>
 						</div>
@@ -139,6 +145,13 @@
 				<div  class="block3_videoplay">
 					<img src="./images/block3_videoplay.svg" class="block3_videoplay_icon">
 				</div>
+
+				<img src="./images/block3_image_mobile.png" class="block3_image_mobile">
+				<div class="block3_overlay_mobile"></div>
+				<div  class="block3_videoplay_mobile">
+					<img src="./images/block3_videoplay_mobile.svg" class="block3_videoplay_mobile_icon">
+				</div>
+
 				<img src="./images/block3_hr.svg" class="block3_hr">
 				<p class="block3_text">At each facility, a camera is installed that broadcasts the progress of work on the <br>
 				clock. At any time, you can go to our website and monitor the progress of work in <br>
@@ -154,6 +167,11 @@
 						<input type="text" name="phone" placeholder="Your phone number:" class="block3_input">
 					</div>
 					<button class="block3_button">Submit</button>
+					<label class="block3_mobile_checkbox_label">
+						<input type="checkbox" class="checkbox">
+						<span class="fake_checkbox"></span>
+						<span>I agree to the processing of personal data</span>
+					</label>
 				</div>
 				<label class="checkbox_label">
 					<input type="checkbox" class="checkbox">
@@ -174,13 +192,13 @@
 
 		<section class="block4">
 			<div class="container block4_container">
-				<h3>TYPES OF REPAIR</h3>
+				<h3 class="block4_title">TYPES OF REPAIR</h3>
 				<div class="block4_logo">
 					<img src="./images/rectangle.svg">
 					<img src="./images/block4_instruments.svg" class="logo_margin">
 					<img src="./images/rectangle.svg">
 				</div>
-				<div class="block4_flex1">
+				<div class="block4_flex1 block4_margin_mobile">
 					<div class="block4_flex2">
 						<img src="./images/block4_image1.png">
 						<div class="block4_flex3">
@@ -322,6 +340,16 @@
 
 
 
+
+		<div class="block6_mobile">
+			<h2 class="block6_title">We realize your <br>
+			wildest fantasies</h2>
+			<img src="./images/block6_mobile_image.png" class="block6_mobile_image">
+			<div class="block6_mobile_arrows">
+				<div class="block2_mobile_arrow block6_arrow_margin1"><img src="./images/block2_mobile_left_arrow.svg" class="block2_lil_arrow_margin1"></div>
+				<div class="block2_mobile_arrow block6_arrow_margin2"><img src="./images/block2_mobile_right_arrow.svg"></div>
+			</div>
+		</div>
 
 		<section class="block6">
 			<div class="container block6_container">
@@ -473,6 +501,42 @@
 
 
 
+
+		<div class="block8_mobile">
+			<h3 class="block8_input_title_mobile">have any questions?</h3>
+			<div class="block8_flex1">
+				<div class="block3_input_flex block8_mobile_input_margin1">
+					<label class="block5_input_label block8_label">Name</label>
+					<input type="text" name="name" placeholder="What is your name:" class="block8_input block8_input1">
+				</div>
+				<div class="block3_input_flex block8_mobile_input_margin2">
+					<label class="block5_input_label block8_label">Phone</label>
+					<input type="text" name="phone" placeholder="Your phone number:" class="block8_input block8_input1">
+				</div>
+				<div class="block3_input_flex block8_mobile_input_margin2">
+					<label class="block5_input_label block8_label">Question</label>
+					<input type="text" name="phone" placeholder="I want to know: " class="block8_input block8_input1">
+				</div>
+				<label class="block3_mobile_checkbox_label">
+					<input type="checkbox" class="checkbox">
+					<span class="fake_checkbox"></span>
+					<span>I agree to the processing of personal data</span>
+				</label>
+				<button class="block8_button">Submit</button>
+			</div>
+			<img src="./images/block8_mobile_map.png">
+			<h3 class="block8_title">Rostov-on-Don, Nansen St., 239 <br>
+			Shopping Center Decorum <br>
+			Tel +7 (928) 768 32 29</h3>
+			<div class="block8_mobile_flex">
+				<div class="block8_mobile_icon block8_mobile_icon_margin">
+					<img src="./images/block8_mobile_icon1.svg">
+				</div>
+				<div class="block8_mobile_icon">
+					<img src="./images/block8_mobile_icon2.svg">
+				</div>
+			</div>
+		</div>
 
 		<section class="block8">
 			<div class="container block8_container">
